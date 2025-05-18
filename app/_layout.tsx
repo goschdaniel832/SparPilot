@@ -5,6 +5,7 @@ import { useFonts, Inter_400Regular, Inter_600SemiBold, Inter_700Bold } from '@e
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 import SplashScreen from '@/components/SplashScreen';
 import { View } from 'react-native';
+import React from 'react';
 
 export default function RootLayout() {
   const ready = useFrameworkReady();
